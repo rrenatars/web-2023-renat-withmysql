@@ -1,0 +1,187 @@
+body
+{
+    margin: 0px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.logo
+{
+    font: 26px/1 'Lora';
+    color: #2E2E2E;
+}
+
+.heading__nav
+{
+    display: flex;
+    gap: 41px;
+    flex-wrap: wrap;
+}
+
+.nav__link
+{
+    font: 12px/1.67 'Oxygen';
+    letter-spacing: 0.6px;
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+.subheading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 109px;
+    margin-bottom: 113px;
+}
+
+.subheading__slogan
+{
+    font: 50px/1.02 'Lora';
+    letter-spacing: 2px;
+    color: #2E2E2E;  
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.subheading__description
+{
+    font: 17px/1.18 'Oxygen';
+    color: rgba(46, 46, 46, 0.63);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main
+{
+    background: #F7F7F7;
+    padding-bottom: 135px;
+}
+
+.main__image
+{
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.paragraphs
+{
+    margin-left: 17.3%;
+    margin-right: 17.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 140px;
+}
+
+.paragraphs__text
+{
+    font: 24px/1.46 'Oxygen';
+    color: #101315;
+    margin: 0px;
+}
+
+.intouch-footer
+{
+    background: url("../images/stay_in_touch.jpg");
+    background-size: cover;
+    padding-top: 81px;
+}
+
+.intouch__name
+{
+    font: 25px/1.2 'Oxygen';
+    color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.intouch__name::after
+{
+    content: " ";
+    display: block;
+    height: 1px;
+    background-color: #DEDEDE;
+    width: 188px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.intouch__application
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application__email
+{
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+    font: 12px/1.17 'Roboto';
+    color: #817F83;
+    padding-top: 18px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    width: 24%;
+}
+
+.application__submit
+{
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    font: 12px/1.17 'Roboto';
+    color: #F8F8F8;
+    padding: 18px 43px;
+}
+
+.intouch-footer__intouch::after
+{
+    content: " ";
+    display: block;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+    width: 100%;
+    margin-top: 89px;
+}
+
+.basement
+{
+    background: rgba(35, 47, 56, 0.6);
+    display: flex;
+    justify-content: space-around;
+    padding: 31px 0px;
+}
+
+.basement__logo
+{
+    color: #FFF;
+}
+
+.basement__nav
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.basement-nav__link
+{
+    font: 11px/2.36 'Oxygen';
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
